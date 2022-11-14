@@ -1,0 +1,16 @@
+<h1>Student id:{{grade.student_id}}</h1>
+class id: {{grade.class_id}}
+<br/>
+exam score: {{grade.scores[0].score}}
+<br/>
+quiz score: {{grade.scores[1].score}}
+<br/>
+
+
+
+hw score: {{grade.scores[2].score}}
+<br/>
+hw score: {{grade.scores[3].score}}
+<br/>
+
+<button (click)="deleteGrade(grade._id)">Delete</button>

@@ -1,0 +1,7 @@
+<ul>
+    <li *ngFor="let grade of grades">
+        <a routerLink="/grade/{{grade._id}}">
+            {{grade.student_id}}-{{grade.class_id}}
+        </a>
+    </li>
+</ul>
